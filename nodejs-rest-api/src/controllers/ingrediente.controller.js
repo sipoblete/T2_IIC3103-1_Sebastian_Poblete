@@ -4,7 +4,7 @@ const models = require( '../models');
 export async function createingrediente(req, res) {
     const { nombre, descripcion } = req.body;
     // Cambiar el path por la url de la pgina de heroku
-    const path = 'imagen_url';
+    const path = 'https://burgerapirest.herokuapp.com/';
     if (nombre!="" && descripcion!="" && nombre!=null && descripcion!=null){
         let newingrediente = await models.Ingrediente.create({
                 nombre,
@@ -13,7 +13,7 @@ export async function createingrediente(req, res) {
             }, {
                 fields: ['nombre', 'descripcion', 'path']
             });
-            newingrediente.update({'path':path+'/ingrediente/' +newingrediente.id }) ;
+            newingrediente.update({'path':path+'ingrediente/' +newingrediente.id }) ;
             return (res.status(201).json(newingrediente));
     } else{
         res.status(400).send('input invalido');

@@ -1,0 +1,8 @@
+{
+    "name": "Node.js",
+    "description": "a nodejs app using express",
+    "repository": "https://github.com/sipoblete/T2_IIC3103-1_Sebastian_Poblete.git",
+    "logo": "na",
+    "keywords": ["node", "express", "static"],
+    "image": "nada"
+}
