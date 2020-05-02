@@ -3,7 +3,7 @@ import morgan from 'morgan';
 //  importing rputes
 import hamburguesaRoutes from './routes/hamburguesa'
 import ingredienteRoutes from './routes/ingrediente'
-import config from "config/config.json"
+
 // inicializacion
 
 const app = express();
