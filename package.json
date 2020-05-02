@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
+    "app-module-path": "^2.2.0",
     "cli": "^1.0.1",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
