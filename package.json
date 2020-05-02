@@ -33,7 +33,7 @@
     "node": "v13.13.0"
   },
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/sipoblete/T2_IIC3103-1_Sebastian_Poblete.git"
+    "type": "git",
+    "url": "https://github.com/sipoblete/T2_IIC3103-1_Sebastian_Poblete.git"
   }
 }
