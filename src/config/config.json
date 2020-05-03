@@ -16,6 +16,6 @@
     "operatorsAliases": false
   },
   "production": {
-    "use_env_variable": "postgres://postgres:oonjh429@localhost:5432/postgres"
+    "use_env_variable": "DATABASE_URL"
   }
 }
