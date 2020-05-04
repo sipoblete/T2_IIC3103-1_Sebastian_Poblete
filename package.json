@@ -30,7 +30,7 @@
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.5",
-    "@babel-polyfill": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "nodemon": "^2.0.3",
     "sequelize-cli": "^5.5.1"
   },
