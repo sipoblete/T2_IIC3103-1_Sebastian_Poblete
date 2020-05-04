@@ -2,11 +2,11 @@
   "name": "nodejs-rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src --out-dir dist --copy-files",
-    "start": "node dist/app.js"
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
