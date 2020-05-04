@@ -1,5 +1,5 @@
 'use strict';
-
+require('dotenv').config()
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
@@ -10,7 +10,8 @@ let config;
 if (env==="development") {
   config = require(__dirname + '/../config/config.json')[env]
 }
-const db = {};
+// const db = {};
+const db = pgp(process.env.DATABASE_URL || "postgres://localhost:5432/postgres")
 
 let sequelize;
 
