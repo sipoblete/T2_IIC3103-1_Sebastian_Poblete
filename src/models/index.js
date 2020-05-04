@@ -1,5 +1,6 @@
 'use strict';
 require('dotenv').config()
+import pgp from "pg-promise";
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
