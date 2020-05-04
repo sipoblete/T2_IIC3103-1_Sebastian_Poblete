@@ -1,5 +1,5 @@
 // import ingrediente from '../models/ingrediente';
-const models = require( '../models');
+const models = require('../models').default;
 
 export async function createingrediente(req, res) {
     const { nombre, descripcion } = req.body;

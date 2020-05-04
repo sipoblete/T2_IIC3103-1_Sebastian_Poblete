@@ -4,7 +4,7 @@
 // import { INTEGER } from 'sequelize/types';
 
 // import HamburguesaIngrediente from '../models/hamburguesaingrediente';
-const models = require( '../models');
+const models = require('../models').default;
 
 export async function createHamburguesa(req, res) {
     const { nombre, precio, descripcion, imagen } = req.body;
